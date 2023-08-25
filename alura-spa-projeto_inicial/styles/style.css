@@ -1,5 +1,6 @@
 html, body {
   font-family: "Roboto", sans-serif;
+  background-color: rgb(27, 27, 27);
 }
 
 nav {
@@ -13,10 +14,10 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #9F0D7F;
+  color: #FFC7EA;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #FFC7EA;
+  border-bottom: 2px solid #CAEDFF;
 }
 
 .banner {
@@ -41,4 +42,151 @@ nav ul li a:hover {
 .banner .inner-banner h2 {
   font-size: 1.5rem;
   color: #D8B4F8;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #9F0D7F;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+  color: #FBF0B2;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #9F0D7F;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFC7EA;
+  line-height: 1.25rem;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #FBF0B2;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #FFC7EA;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #9F0D7F;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid #9F0D7F;
+  background-color: white;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 3px 3px 5px 3px #D8B4F8;
+  outline: none;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  width: 540px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #CAEDFF;
+  color: #9F0D7F;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #9F0D7F;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  color: #CAEDFF;
+  background-color: #9F0D7F;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #FFC7EA;
+  padding: 1.2rem;
+  color: #9F0D7F;
+  background: linear-gradient(to left, #FFC7EA, #D8B4F8, #CAEDFF, #9F0D7F, #FBF0B2);
+}
+footer i {
+  color: #9F0D7F;
+}
+
+#missao {
+  height: 100%;
+  margin: 3rem;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+#missao .imagem {
+  width: 30%;
+}
+#missao .imagem img {
+  border-radius: 100px;
+}
+#missao .texto {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#missao .texto h3 {
+  font-size: 1.7647058824rem;
+  color: #FFC7EA;
+  font-weight: 500;
+}
+#missao .texto h4 {
+  font-size: 1.5rem;
+  color: #FBF0B2;
+  font-weight: 300;
+}
+#missao .texto p {
+  font-size: 1.2rem;
+  color: #CAEDFF;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=style.css.map */
